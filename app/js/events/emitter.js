@@ -4,7 +4,7 @@
  * @package create-polygon
  * @author Dmitry Kaplin <dmitry.kaplin@bigdropinc.com>
  */
-import Bootstrap from "bootstrap";
+import EventEmitter from "event-emitter";
 
-let bootstrap = new Bootstrap();
-bootstrap.run();
+let eventEmitter = new EventEmitter();
+export default eventEmitter;
