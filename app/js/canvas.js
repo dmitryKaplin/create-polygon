@@ -45,7 +45,8 @@ class Canvas
     note.id = 'note';
     note.innerHTML = `
       <div>Please press <b>CTRL + click</b> to create a new point.</div>
-      <div>Please select point and press <b>delete</b> or <b>back</b> key to delete point.</div>
+      <div>Please select point and press <b>delete</b> key to delete point.</div>
+      <div>To move a point, use the mouse or buttons up, down, right, left</div>
     `;
     elements.canvasWrapper.appendChild(note);
 
